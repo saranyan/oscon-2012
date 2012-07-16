@@ -1,0 +1,30 @@
+path {
+  fill: #ddd;
+  stroke: #ddd;
+  stroke-width: 0px;
+}
+
+form {
+  position: absolute;
+  font-size: 18px;
+}
+
+text {
+  font-size: 20px;
+  font-family: Helvetica;
+  font-weight: 500;
+  margin-left: -50px;
+  fill: black;
+}
+
+.sun path {
+  fill: #f89406;
+}
+
+.planet path {
+  fill: ivory;
+}
+
+.ring path {
+  fill: grey;
+}
