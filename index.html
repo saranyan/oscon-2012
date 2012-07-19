@@ -5,7 +5,6 @@
 @import url(stack.css);
 @import url(css/gears.css);
 @import url(css/bootstrap/bootstrap-responsive.css);
-
 .big {
   font-size: 128px;
 }
@@ -25,15 +24,26 @@ svg {
 	margin-top: -40px;
 }
 
+.small4 {
+ font-size: 30px;
+}
+
 .small2 {
 	font-size:30px;
 	padding-top: 50px;
 }
 
+.small3 {
+	font-size:20px;
+	line-height:1em;
+}
+
+
 .footer {
 	margin-top: 500px;
 	font-size: 20px;
 	display: inline;
+	
 }
 
 .gist {
@@ -65,7 +75,7 @@ svg {
 <section>
 	<div class="offset1">
 	<image src="images/ebay.png" style="padding-top:105px;"></image>
-  <p style="position:absolute;bottom:0;">New open commerce platform</p>
+  <p style="position:absolute;bottom:10;">New open commerce platform</p>
  </div>
 </section>
 
@@ -145,14 +155,16 @@ svg {
 
 
 <section>
-	<div class="offset1">
+	<div class="">
   <image src="images/wordcloud.png" style="padding-top:100px;"></image>
   </div>
 </section>
 
 <section>
   <div class="offset1">
-  <image src="images/magento.png" style="padding-top:100px;"></image>
+	<div class="offset1">
+  	<image src="images/magento.png" style="padding-top:100px;"></image>
+  </div>
 	<p>Leading open source ecommerce platform</p>
   </div>
 </section>
@@ -172,23 +184,21 @@ svg {
 
 <section>
   <h1 class="caption">XOCL</h1>
-  <div class="offset2">
-  <p>Open commerce language that attempts to standardize workflows and make integrations easier. This is being developed in collaboration with developers and partners. </p>
-  <a href="https://github.com/xcommerce/xocl">https://github.com/xcommerce/xocl</a>
+  <div class="offset1">
+  <p class="small4">Open commerce language that attempts to standardize workflows and make integrations easier. This is being developed in collaboration with developers and partners. </p>
+  <a href="https://github.com/xcommerce/xocl" class="small4">https://github.com/xcommerce/xocl</a>
   
    </div>
 </section>
 
 <section>
-  
-  <div class="offset2">
+  <div class="offset3">
 	<p>Cloud + Fabric + XOCL</p>
 	 <image src="images/xlogo.png" style=""></image>
 	</div>
 </section>
 
 <section>
-  
   <div class="offset2">
 	<p>X.commerce cloud</p>
 	 <image src="images/cloud.png" height="500px"></image>
@@ -204,21 +214,32 @@ svg {
 
 
 <section>
+	  <div class="offset1">
   <p>XOCL</p>
   <script src="https://gist.github.com/3119361.js"> </script>
   <p class="footer">Defines workflows, transactions, schemas, etc </p>
+   </div>
 </section>
 
 <section>
+	  <div class="offset1">
   <p>XOCL</p>
   <image src="images/xocl_commit.png" width="900px"></image>
   <br/>
   <p class="footer">Very active project. Lot of developer/partner feedback. </p>
+  </div>
 </section>
 
 
 <section>
   <h1 class="caption">Demo</h1>
+</section>
+
+<section>
+    <div class="offset1" style="padding-top:150px;">
+		<video id="sampleMovie" src="oscon_screen.m4v" width="720" height="360" controls></video>
+		</div>
+
 </section>
 
 <section>
@@ -229,13 +250,11 @@ svg {
 	<h1 class="caption"> with you! </h1>
 	<p> Please participate in this open commerce revolution </p>
 	
-	<p class="footer"> <a href="https://x.com">https://x.com</a> </p>
-	<br/>
-	<p class="footer"> Register your app here -<a href="https://devportal.x.com">https://devportal.x.com</a> </p>
-	<br/>
-	<p class="footer"> Checkout the tools and XOCL contracts -<a href="https://github.com/xcommerce">https://github.com/xcommerce</a> </p>
-	<br/>
-	<p class="footer"> Reach out to me <a href="http://twitter.com/saranyan">@saranyan</a> and saranyan@x.com
+	<p class="small3"> <a href="https://x.com">https://x.com</a> </p>
+	<p class="small3"> Register your app here -<a href="https://devportal.x.com">https://devportal.x.com</a> </p>
+	<p class="small3"> Checkout the tools and XOCL contracts -<a href="https://github.com/xcommerce">https://github.com/xcommerce</a> </p>
+	
+	<p class="small3"> Reach out to me <a href="http://twitter.com/saranyan">@saranyan</a> and saranyan@x.com
 </section>
 
 <script src="stack.v0.js"></script>
